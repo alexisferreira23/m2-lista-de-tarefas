@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Tarefas</title>
-
+    
     <!-- ESTILOS -->
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
@@ -51,7 +55,7 @@
 
       <!-- Listagem de tasks -->
       <section class="tasks__container">
-        <h2>Tarefas</h2>
+        <h2 class="title2">Tarefas</h2>
         <ul class="tasks__list">
           <!-- Task Exemplo 1 -->
           <li class="task__item">
@@ -64,7 +68,7 @@
           <!-- Task Exemplo 2 -->
           <li class="task__item">
             <div class="task-info__container">
-              <span class="task-type span-important"></span>
+              <span class=" task-type span-important"></span>
               <p>Consertar Computador</p>
             </div>
             <button class="task__button--remove-task"></button>
